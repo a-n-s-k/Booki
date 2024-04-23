@@ -116,7 +116,7 @@ header {
 }
 .logo img {
     width: 61px;
-    height: 19x;
+    height: 19px;
     object-fit: cover;
     padding: 30px 50px;
 }
@@ -249,8 +249,8 @@ nav {
 .info-bar  {
     height: 24px;
     display: flex;
-    justify-items: baseline;
     column-gap: 10px;
+    margin-bottom: 5px;
 }
 .info-bar i {
     width: 24px;
@@ -533,6 +533,9 @@ footer {
     .info-group {
         margin: 0;
         padding: 0 30px;
+    }
+    .info-bar  {
+        margin: 0;
     }
     /****** Hebergements et Populaires ***********/
     .hebergements-and-populaires {
