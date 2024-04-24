@@ -38,7 +38,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     row-gap: 35px;
-    padding: 0 3.472%;
+    padding: 0 50px;
     box-sizing: border-box;
 }
 
@@ -70,7 +70,7 @@ a {
 .card-content {
     display: flex;
     row-gap: 8px;
-    padding: 0 1.041%;
+    padding: 0 15px;
 }
 
 .card-title h3 {
@@ -94,6 +94,7 @@ a {
 /****** Titres ***********/
 h1 {
     font-size: 22px;
+    padding: 0 15px;
  }
 
 h2 {
@@ -102,7 +103,9 @@ h2 {
 h3 {
     font-size: 16px;
 }
-
+p {
+    padding: 0 15px;
+}
 /****** Header ***********/
 header {
     height: 79px;
@@ -145,15 +148,12 @@ nav {
 .info-group section {
     display: flex;
     flex-direction: column;
+    column-gap: 10px;
+    justify-content: space-around;
     row-gap: 35px;
 }
 /****** Headline ***********/
-.headline h1 p {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    row-gap: 8px;
-}
+
 /****** Search Bar ***********/
 .search-bar  {
     display: flex;
@@ -271,7 +271,7 @@ nav {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    padding: 30px 2.083%;
+    padding: 30px;
     border-radius: 15px;
     box-sizing: border-box;
     background-color: var(--main-bg-color);
@@ -512,30 +512,44 @@ footer {
         background-color: var(--main-color);
         border-radius: 10px; 
     }
-    .filter-bar  {
-        row-gap: 15px;   
+    .filter-title {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 0 15px;
     }
+    .filter-bar  {
+        row-gap: 15px;
+    }
+
     .filter-boutons {
         justify-content: center;
+        column-gap: 10px;
     }
     .filter-bouton-l1 {
         width: 100%;
+        padding: 0 15px;
+        column-gap: 10px;
     }
     .filter-bouton-l2 {
         width: 100%;
+        padding: 0 15px;
+        column-gap: 10px;
     }
     .filter-bouton {
         width: 40%;
-        display: flex;
+        font-size: 14px;
         align-items: center;
-        justify-content: center;
+        padding: 0 10px;
+        column-gap: 10px;
     }
-    .info-group {
+
+    .info-group section{
         margin: 0;
-        padding: 0 30px;
+        padding: 0;
     }
     .info-bar  {
         margin: 0;
+        padding: 0 15px;
     }
     /****** Hebergements et Populaires ***********/
     .hebergements-and-populaires {
