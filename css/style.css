@@ -409,11 +409,9 @@ footer {
         flex-direction: column;
     }
     .filter-boutons {
-        display: flex;
         column-gap: 12px;
     }
     .filter-bouton-l1 {
-        display: flex;
         column-gap: 12px;
     }
     .filter-bouton {
